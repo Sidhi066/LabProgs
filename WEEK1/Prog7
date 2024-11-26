@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float num1, num2, result;
+
+    printf("Enter two floating-point numbers: ");
+    scanf("%f %f", &num1, &num2);
+
+    result = num1 * num2;
+
+    printf("Product as float: %.2f\n", result);
+    printf("Product as integer: %d\n", (int)result);
+
+    return 0;
+}
