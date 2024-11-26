@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float marks[5], total = 0, percentage;
+    int i;
+
+    printf("Enter marks of 5 subjects: ");
+    for (i = 0; i < 5; i++) {
+        scanf("%f", &marks[i]);
+        total += marks[i];
+    }
+
+    percentage = (total / 500) * 100;
+    printf("Percentage: %.2f%%\n", percentage);
+
+    return 0;
+}
