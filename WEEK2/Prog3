@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float units, chargePerUnit, bill;
+    printf("Enter number of units: ");
+    scanf("%f", &units);
+    printf("Enter charge per unit: ");
+    scanf("%f", &chargePerUnit);
+
+    bill = units * chargePerUnit;
+    printf("Electricity Bill: %.2f\n", bill);
+
+    return 0;
+}
