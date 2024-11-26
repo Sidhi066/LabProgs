@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float basicSalary, DA, HRA, totalSalary;
+    printf("Enter basic salary: ");
+    scanf("%f", &basicSalary);
+
+    DA = 0.1 * basicSalary;  // Assume 10% for DA
+    HRA = 0.2 * basicSalary; // Assume 20% for HRA
+    totalSalary = basicSalary + DA + HRA;
+
+    printf("Total Salary: %.2f\n", totalSalary);
+
+    return 0;
+}
